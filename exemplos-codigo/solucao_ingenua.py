@@ -8,6 +8,15 @@ dataset = [
     {"Título": "Artigo 7", "Resumo": "Resumo do Artigo 7, que explora o design de algoritmos eficientes."},
     {"Título": "Artigo 8", "Resumo": "Resumo do Artigo 8, explora..."},
     {"Título": "Artigo 9", "Resumo": "Resumo do Artigo 9, explora algoritmos eficientes para suffux tree."},
+    {"Título": "Artigo 1", "Resumo": "Resumo do Artigo 1. Ele fala sobre algoritmos."},
+    {"Título": "Artigo 2", "Resumo": "Resumo do Artigo 2, que explora o design de algoritmos eficientes."},
+    {"Título": "Artigo 3", "Resumo": "Resumo do Artigo 3, explora..."},
+    {"Título": "Artigo 4", "Resumo": "Resumo do Artigo 4, explora algoritmos eficientes para suffux tree."},
+    {"Título": "Artigo 5", "Resumo": "Resumo do Artigo 5, explora algoritmos."},
+    {"Título": "Artigo 6", "Resumo": "Resumo do Artigo 6. Ele fala sobre algoritmos."},
+    {"Título": "Artigo 7", "Resumo": "Resumo do Artigo 7, que explora o design de algoritmos eficientes."},
+    {"Título": "Artigo 8", "Resumo": "Resumo do Artigo 8, explora..."},
+    {"Título": "Artigo 9", "Resumo": "Resumo do Artigo 9, explora algoritmos eficientes para suffux tree."},
     # ... Outros artigos ...
 ]
 
