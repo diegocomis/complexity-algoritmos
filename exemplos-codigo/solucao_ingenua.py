@@ -27,17 +27,17 @@ palavras_chave = ["algoritmo", "design", "eficiente"]
 correspondencias = {}
 
 # Algoritmo de String Matching
-for i, entrada in enumerate(dataset):
+for i, entrada in enumerate(dataset):               # Percorre os registros do dataset
     correspondencias[i] = 0
-    for palavra in palavras_chave:
-        titulo = entrada["Título"].lower()
+    for palavra in palavras_chave:                  # Percorre a lista de palavras-chave
+        titulo = entrada["Título"].lower()          # Converte os caracteres maiúsculos para minúsculos
         resumo = entrada["Resumo"].lower()
-        if palavra in titulo or palavra in resumo:
-            correspondencias[i] += 1
+        if palavra in titulo or palavra in resumo:  # Verifica se palavra-chave consta no titulo ou no resumo
+            correspondencias[i] += 1                # Incrementa o número de correspondências
 
 # Classificação e ordenação com base no número de correspondências
-resultado_ordenado= sorted(correspondencias, key=lambda x: correspondencias[x], reverse=True)
+resultado_ordenado = sorted(correspondencias, key=lambda x: correspondencias[x], reverse=True)
 
 # Exibição dos resultados ordenados
 for i in resultado_ordenado:
-    print(f"Título: {dataset[i]['Título']}, Resumo: {dataset[i]['Resumo']}, Correspondências: {correspondencias[i]}")
+    print(f"Classificação: {correspondencias[i]} - Título: {dataset[i]['Título']}, Resumo: {dataset[i]['Resumo']}")
